@@ -149,15 +149,31 @@
 
 
 
-n=int(input("Enter number"))
-mul=1
-i=1
-while i<=n:
-    if(i%2!=0):
-        mul=mul*i
-        if(i<n-1):
-            print(i,end="*")
-        else:
-            print(i,end="=")
-    i=i+1
-print(mul)    
+# n=int(input("Enter number"))
+# mul=1
+# i=1
+# while i<=n:
+#     if(i%2!=0):
+#         mul=mul*i
+#         if(i<n-1):
+#             print(i,end="*")
+#         else:
+#             print(i,end="=")
+#     i=i+1
+# print(mul)    
+
+# n=int(input("Enter any no:"))
+# td=0
+# while n>0:
+#     td=td+1
+#     n=n//10
+# print(f"Total no of digits:{td}")
+
+
+n=int(input("Enter any no:"))
+sum=0
+while n>0:
+    td=n%10
+    sum=sum+td 
+    n=n//10
+print(f"SUM:{sum}")
