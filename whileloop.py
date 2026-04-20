@@ -170,10 +170,64 @@
 # print(f"Total no of digits:{td}")
 
 
-n=int(input("Enter any no:"))
-sum=0
-while n>0:
-    td=n%10
-    sum=sum+td 
-    n=n//10
-print(f"SUM:{sum}")
+# n=int(input("Enter any no:"))
+# sum=0
+# while n>0:
+#     td=n%10
+#     sum=sum+td 
+#     n=n//10
+# print(f"SUM:{sum}")
+
+
+#ARMSTRONG NUMBER
+
+# n=int(input("Enter any number:"))
+# x,y,td,sum=n,n,0,0
+# while n>0:
+#     td=td+1
+#     n=n//10
+# while x>0:
+#     ld=x%10
+#     sum=sum+ld**td
+#     x=x//10
+# if y==sum:
+#     print("Armstrong")     
+# else:
+#     print("not armstrong")   
+
+
+#POLLINDROME 
+
+# n=int(input("Enter any no:"))
+# rev,x= 0,n
+# while n>0:
+#     ld=n%10
+#     rev=rev*10+ld
+#     n=n//10
+# if(x==rev):
+#     print("pollindorme")
+# else:
+#     print("Not")        
+
+
+
+#PATTERN
+
+# n=5
+# i=1
+# while i<=n:
+#     print("*"*5)
+#     i=i+1
+
+# n=5
+# i=1
+# while i<=n:
+#     print("*"*i+' '*(n-i))
+#     i=i+1
+
+
+n=5
+i=1
+while i<=n:
+    print(' '*(n-i)+"* "*i)
+    i=i+1
