@@ -70,8 +70,46 @@
 # for i in s:
 #     print(i)
 
-n=int(input("Enter no:"))
-for i in range (1,n+1):
-    # print("*"*i+" "*(n-i))
-    # print(" "*(n-i)+"*"*i)  
-     print(" "*(n-i)+"0 "*i) 
+# n=int(input("Enter no:"))
+# for i in range (1,n+1):
+#     # print("*"*i+" "*(n-i))
+#     # print(" "*(n-i)+"*"*i)  
+#      print(" "*(n-i)+"0 "*i) 
+
+
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(j,end="" )
+#     print()        
+
+# n=int(input("Enter no: "))
+# x=2
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(x,end=" ")
+#         x=x+2
+#     print()        
+
+# n=eval(input("Enter no:"))
+# for i in range (1,n+1):
+#     ch="A"
+#     for j in range(1,i+1):
+#         print(ch,end=" ")
+#         ch=chr(ord(ch)+1)
+#     print()    
+
+
+# n=(input("Enter no:"))
+# ch="A"
+# for i in range (1,n+1):
+    
+#     for j in range(1,i+1):
+#         print(ch,end=" ")
+
+#         ch=chr(ord(ch)+1)
+#     print()    
+
+
+#-------------------TRANSFER STATEMENT----------------------
+
+ 
