@@ -112,4 +112,89 @@
 
 #-------------------TRANSFER STATEMENT----------------------
 
- 
+# n=int(input("Enter a no:"))
+# i=1
+# while i<=n:
+#     if(i==1):
+#         pass
+#     else:
+#         print(i)
+#     i=i+1    
+
+
+# n=int(input("Enter a no:"))
+# i=1
+# while i<=n:
+#     if(i==5):
+#         continue
+#     else:
+#         print(i)
+#     i=i+1    
+
+# n=int(input("Enter a no:"))
+# i=1
+# while i<=n:
+#     if(i==5):
+#         break
+#     else:
+#         print(i)
+#     i=i+1    
+
+
+# for i in range (1,10):
+#     if(i==5):
+#         break
+#     else:
+#         print(i)
+# print("Hello")        
+
+
+# while True:
+#     print("1. Addition\n2. Substraction\n3. Multiplication\n4. Division\n5. OFF\n")
+#     n=int(input("Enter any one option mention above:"))
+#     num=[1,2,3,4,5]
+#     if n in num:
+#         if n==1:
+#             x=int(input("Enter how many no you want to add:")) 
+#             sum=0
+#             for i in range (1,x+1):
+#                 number=int(input(f"Enter {i} number:")) 
+#                 sum=sum+number
+#             print("ADDITION iS:",sum)    
+#     else:
+#         print("Please enter valid no:")
+
+   
+
+while True:
+    print("1. Addition\n2. Substraction\n3. Multiplication\n4. Division\n5. OFF\n")
+    n=int(input("Enter any one option mention above:"))
+    num=[1,2,3,4,5]
+    if n in num:
+        if n==1:
+            x=int(input("Enter how many no you want to add:")) 
+            l=[]
+            sum=0
+            for i in range (1,x+1):
+                number=int(input(f"Enter {i} number:")) 
+                l.append(number)
+                sum=sum+number
+            print(f"ADDITION OF GIVEN NO {l} is:",sum)    
+
+        elif n==2:
+            pass
+        elif n==3:
+            pass
+        elif n==4:
+            pass
+        elif n==5:
+            break
+
+
+    else:
+        print("Please enter valid no:")
+
+
+
+
+   
