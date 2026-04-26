@@ -177,12 +177,23 @@ while True:
             sum=0
             for i in range (1,x+1):
                 number=int(input(f"Enter {i} number:")) 
-                l.append(number)
+                # l.append(number)
                 sum=sum+number
             print(f"ADDITION OF GIVEN NO {l} is:",sum)    
 
         elif n==2:
-            pass
+            x=int(input("Enter how many number you want to subtract:"))
+            l=[]
+            sub=0
+            for i in range (0,x):
+                 number=int(input(f"Enter {i} number:"))
+                 l.append(number)
+                 sub=l[i]-sub
+            print(sub)
+                 #sub=l[i]-sub
+                 #print(l[i])
+           # print(f"SUBSTRACTION OF GIVEN NUMBER {l} IS :",sub)     
+
         elif n==3:
             pass
         elif n==4:
