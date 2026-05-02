@@ -20,3 +20,15 @@ s="!!!Python!!!"
 print(s.strip("!"))
 print(s.lstrip("!"))
 print(s.rstrip("!"))
+
+
+l={"name":"Aniruddh","age":18}
+h={"class":"BCA","city":"Bhopal"}
+l.update(h)
+print(l)
+
+
+d={"name":"A","class":"bca"}
+d.setdefault("age",17)
+print(d)
+

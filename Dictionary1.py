@@ -55,13 +55,13 @@
 # d=dict().fromkeys(s,"10")
 # print(d)
 
-# l={"name":"Aniruddh","age":18}
-# h={"class":"BCA","city":"Bhopal"}
-# l.update(h)
-# print(l)
+l={"name":"Aniruddh","age":18}
+h={"class":"BCA","city":"Bhopal"}
+l.update(h)
+print(l)
 
 
-# d={"name":"A","class":"bca"}
-# d.setdefault("age",17)
-# print(d)
+d={"name":"A","class":"bca"}
+d.setdefault("age",17)
+print(d)
 
