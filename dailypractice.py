@@ -1,0 +1,40 @@
+    
+l=eval(input("Enter any tuple:"))
+print(l.index(2))
+print(l.count(3))      
+
+
+s="!!!Python!!!"
+print(s.strip("!"))
+print(s.lstrip("!"))
+print(s.rstrip("!"))
+
+
+l={"name":"Aniruddh","age":18}
+h={"class":"BCA","city":"Bhopal"}
+l.update(h)
+print(l)
+
+
+d={"name":"A","class":"bca"}
+d.setdefault("age",17)
+print(d)
+
+def show(x,y,z):
+    print("X",x)
+    print("Y",y)
+    print("Z",z)
+# show(10,20,30)    -> positional argument
+# show()            default positional argument
+# show(10)                 \\
+# show(10,20)               \\
+# show(10,20,30)             \\
+# show(10,20,30,40) -> variable length 
+
+
+s=input("Enter your name:")
+print(s)
+print(f'Type of {s} is {type(s)}')
+print(f'ID of {s} is {id(s)}')
+print(f'Max of {s} is {max(s)}')
+print(f'Min of {s} is {min(s)}')
