@@ -42,3 +42,11 @@ def show(x,y,z):
 # show(10,20)               \\
 # show(10,20,30)             \\
 # show(10,20,30,40) -> variable length 
+
+
+s=input("Enter your name:")
+print(s)
+print(f'Type of {s} is {type(s)}')
+print(f'ID of {s} is {id(s)}')
+print(f'Max of {s} is {max(s)}')
+print(f'Min of {s} is {min(s)}')
