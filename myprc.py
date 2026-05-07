@@ -32,3 +32,13 @@ d={"name":"A","class":"bca"}
 d.setdefault("age",17)
 print(d)
 
+def show(x,y,z):
+    print("X",x)
+    print("Y",y)
+    print("Z",z)
+# show(10,20,30)    -> positional argument
+# show()            default positional argument
+# show(10)                 \\
+# show(10,20)               \\
+# show(10,20,30)             \\
+# show(10,20,30,40) -> variable length 
