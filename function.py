@@ -105,13 +105,88 @@
 # PACKING-*args
 # UNPACKING-**kwargs
 
-def show(x,y,z):
-    print("X",x)
-    print("Y",y)
-    print("Z",z)
+# def show(x,y,z):
+#     print("X",x)
+#     print("Y",y)
+#     print("Z",z)
 # show(10,20,30)    -> positional argument
 # show()            default positional argument
 # show(10)                 \\
 # show(10,20)               \\
 # show(10,20,30)             \\
 # show(10,20,30,40) -> variable length 
+
+
+# 8/5/26
+# default positional argument
+
+# def add(x=0,y=0,z=0):
+#     print(x+y+z)
+# add()   
+# add(10) 
+# add(10,20)
+# add(10,20,30)
+
+# variable length argument   (*args)
+
+# Syntax:
+# def functionname (*args):
+#     print(args)
+#     print(type(args))
+# functionname(args)
+# functionname(args1,args2,args3)    
+
+
+# def display(*n):
+#     print(n)
+#     print(type(n))
+# display()
+# display(10,20)
+# display(10,20,"python","java ")    \
+
+# def display(*n):
+#     sum=0
+#     for i in n:
+#         sum=sum+i
+#     print(sum)
+# display(10,20,30,40,50,60)
+# display()          
+
+
+#   * holds value in format of tuple
+# def display(*n):
+#     print(n)
+#     print(type(n))
+# values=eval(input("Enter all val:"))    
+# display(*values)
+
+# * works on packing and unpacking in list and tuple 
+
+
+# keyword positional argument
+
+# def add(x=0,y=0,z=0):
+#     print("X:",x)
+#     print("Y:",y)
+#     print("Z:",z)
+# add(z=10,y=50,x=20)    
+# add()
+# add(x=19)
+# add(z=10,x=20)
+
+
+# def add(**kwargs):
+#     print(kwargs)
+#     print(type(kwargs))
+# add()
+# add(x=10,y=20,z=100,p=30,q=21)    
+
+
+def add(**kwargs):
+    
+    sum=0
+    for i in d:
+        sum+=kwargs.get(i)
+    print(sum)
+d={"x":10,"y":23,"z":33}
+add(**d)

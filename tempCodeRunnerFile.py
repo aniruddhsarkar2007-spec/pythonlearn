@@ -1,9 +1,2 @@
-n=int(input("Enter number"))
-# i=1
-# while i<=n:
-#     if(i%2==0):
-#         if(i<n-1):
-#             print(i,end="+")
-#         else:
-#             print(i)
-#     i=i+1
+add(z=10,x=20)
+# add(x=10,y=20,z=100,p=30,q=21)
