@@ -38,3 +38,48 @@ print(f'Type of {s} is {type(s)}')
 print(f'ID of {s} is {id(s)}')
 print(f'Max of {s} is {max(s)}')
 print(f'Min of {s} is {min(s)}')
+
+
+# inbuilt function of python in string 
+s=input("Enter your name:")
+print(s)
+print(f'Type of {s} is {type(s)}')
+print(f'ID of {s} is {id(s)}')
+print(f'Max of {s} is {max(s)}')
+print(f'Min of {s} is {min(s)}')
+
+ l=[1,2,3,4,5,6]
+# l.remove(3)
+# print(l)
+
+
+l=[1,2,3,4,5,6]
+l.sort(reverse=True)
+print(l)
+
+#l.pop(3)
+#print(l)
+
+#l.sort()
+#print(l)
+
+#l.reverse()
+#print(l)
+
+
+
+
+
+
+
+#copy()
+# clear()
+# append()
+# extend()
+# insert()
+# pop()
+# remove()
+# sort()
+# reverse()
+# coutn()
+# index()
