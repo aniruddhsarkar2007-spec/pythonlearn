@@ -82,4 +82,38 @@ print(l)
 # sort()
 # reverse()
 # coutn()
-# index()
+
+
+
+# ch=input("Enter value")
+# print(chr(ord(ch)+2))
+
+# s="python"
+# s1=""
+# for ch in s:
+#     s1=s1+chr(ord(ch)+1)
+# print(s1)
+
+
+# l=[10,20,30,40,50]
+# l1=[]
+# for i in l:
+#     l1.append(i+5)
+# print(l1)    
+
+# l=[1,3,2,4,5]
+# l1=[]
+# for i in l:
+#     l1.append(i*i)
+# print(l1)    
+
+# t=(1,2,3,4,5)
+# l=list(t)
+# # print(l)
+# l1=[]
+# for i in l:
+#     l1.append(i+5)
+# t=tuple(l1)
+# print(t)   
+
+# l=[1,2,3,4,5]
