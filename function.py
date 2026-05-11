@@ -182,11 +182,12 @@
 # add(x=10,y=20,z=100,p=30,q=21)    
 
 
-def add(**kwargs):
-    
-    sum=0
-    for i in d:
-        sum+=kwargs.get(i)
-    print(sum)
-d={"x":10,"y":23,"z":33}
-add(**d)
+# def add(**kwargs):
+#     sum=0
+#     for i in d:
+#         sum+=kwargs.get(i)
+#     print(sum)
+# d={"x":10,"y":23,"z":33}
+# add(**d)
+
+
