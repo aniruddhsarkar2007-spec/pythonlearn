@@ -191,3 +191,42 @@
 # add(**d)
 
 
+# REDUCE FUNCTION
+
+#suntax:
+# iterable
+# def fun_name(n1,n2):
+#     fun_body
+# res = functools.reduce(fun_name,iterable)    
+
+
+# import functools
+# l=[1,2,3,4,5]
+# def add(a,b):
+#     return a+b
+# res=functools.reduce(add,l,0)
+# res=functools.reduce(add,l)
+# print(res)
+
+
+# # Max
+# import functools
+# l=[19,34,554,65,765,43]
+# def max(a,b):
+#     if(a>b):
+#         return a
+#     else:
+#         return b
+# res = functools.reduce(max,l)
+# print(res)    
+
+# Min
+import functools
+l=[19,34,554,65,765,43]
+def min(a,b):
+    if(a<b):
+        return a
+    else:
+        return b
+res = functools.reduce(min,l)
+print(res)    

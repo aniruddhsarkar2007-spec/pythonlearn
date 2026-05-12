@@ -67,10 +67,47 @@
 
 
 
-l1=[1,2,3,4]
-l2=[5,6,7,8]
-l3=[1,2,3,4]
-def sum(n1,n2,n3):
-    return n1+n2+n3
-res=list(map(sum,l1,l2,l3))
-print(res)
+# l1=[1,2,3,4]
+# l2=[5,6,7,8]
+# l3=[1,2,3,4]
+# def sum(n1,n2,n3):
+#     return n1+n2+n3
+# res=list(map(sum,l1,l2,l3))
+# print(res)
+
+# Filter
+# syntax:
+# iterable
+# def fun_name(n):
+#     conditional_statement
+# res=list(filter(fun_name,iterable))
+
+#EVEN
+
+# l=[1,2,3,4,5,6,7,8,9]
+# def even(n):
+#     if n%2==0:
+#         return n
+# res=tuple(filter(even,l))    
+# print(res)
+
+#ODD
+
+# l=[1,2,3,4,5,6,7,8,9]
+# def odd(n):
+#     if n%2!=0:
+#         return n
+# res=tuple(filter(odd,l))    
+# print(res)
+
+
+
+l=[1,2,3,4,5,6,7,8,9]
+def comp(n):
+    if n%2==0:
+         return("even")
+    elif n%2!=0:
+        return("odd")
+res=tuple(map(comp,l))
+print(res)    
+    
