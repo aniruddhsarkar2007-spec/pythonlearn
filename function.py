@@ -221,12 +221,63 @@
 # print(res)    
 
 # Min
-import functools
-l=[19,34,554,65,765,43]
-def min(a,b):
-    if(a<b):
-        return a
-    else:
-        return b
-res = functools.reduce(min,l)
-print(res)    
+# import functools
+# l=[19,34,554,65,765,43]
+# def min(a,b):
+#     if(a<b):
+#         return a
+#     else:
+#         return b
+# res = functools.reduce(min,l)
+# print(res)    
+
+
+#lambda function
+
+# it will be used only once
+# it is an anonymus function which has no name
+
+# x=lambda a,b:a+b
+# x(5,10)
+# print(x(5,10))
+
+# lambda variable: single line expression
+
+# Map+lambda
+# l=[12,2,3,4,5]
+# res=list(map(lambda n:n**2,l))
+# print(res)
+
+
+# l1=eval(input("enter list"))
+# l2=eval(input("enter list"))
+# l3=eval(input("enter list"))
+# res=list(map(lambda a,b,c:a+b+c,l1,l2,l3))
+# print(res)
+
+# condition in lambda
+# x:if-res condition else else-result
+
+
+# l1=eval(input("enter list"))
+# res=list(filter(lambda n:n%2==0,l1))
+# print(res)
+
+# l1=eval(input("enter list"))
+# res=list(filter((lambda n:n if n%2==0 else None),l1))
+# print(res)
+
+# MAXIMUM USING REDUCE WITH LAMBDA
+
+# from functools import reduce
+# l1=eval(input("enter list"))
+# res=reduce(lambda x,y:x if x>y else y,l1)
+# print(res)
+
+#  MINIMUM USING REDUCE WITH LAMBDA
+
+
+# from functools import reduce
+# l1=eval(input("enter list"))
+# res=reduce(lambda x,y:x if x<y else y,l1)
+# print(res)
