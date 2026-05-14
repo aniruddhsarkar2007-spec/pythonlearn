@@ -50,3 +50,15 @@ print(f'Type of {s} is {type(s)}')
 print(f'ID of {s} is {id(s)}')
 print(f'Max of {s} is {max(s)}')
 print(f'Min of {s} is {min(s)}')
+
+
+x=int(input("Enter how many number you want to subtract:"))
+arr=[]
+for i in range (0,x):
+     number=int(input(f"Enter {i} number:"))
+     arr.append(number)
+r=arr[0]
+for i in arr[1:]:
+     r=r-i
+print(r)
+ 
